@@ -4,8 +4,6 @@ Se agregan texturas, reflexión e iluminación puntual en el **[TP2](https://git
 
 **[PROBAR EN LA WEB](https://tp1-sistemas-graficos.herokuapp.com)**
 
-[Enunciado](https://www.sistemasgraficos.xyz/files/trabajospracticos/2019/tp1-c2-2019.pdf)
-
 ## Requirements
 
 * npm
