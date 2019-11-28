@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Example</title>
+    <title>TP 1 Sistemas Gráficos | Franco Scaccheri, Dylan Alvarez | 2019</title>
     <style>
         html,
         body {
@@ -23,7 +23,8 @@
 
         #camera-mode-name,
         #title,
-        #credits {
+        #credits,
+        #go-to-final-version {
             position: absolute;
             background-color: rgb(26, 26, 26);            
             color: white;
@@ -47,6 +48,20 @@
             left: 15px;
         }
 
+        #go-to-final-version {
+            font-size: 13px;
+            position: absolute;
+            left: 50%;
+            width: fit-content;
+            padding: 4px 8px;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        #go-to-final-version a {
+            font-size: 20px;
+        }
+
         #credits {
             bottom: 0;
             right: 15px;
@@ -64,6 +79,11 @@
         <a href="https://www.sistemasgraficos.xyz/" target="_blank">
             FIUBA
         </a>
+    </div>
+    <div id="go-to-final-version">
+        <span>Se agregan texturas, reflexión e iluminación puntual en el TP2!</span>
+        <br>
+        <a href="https://tp2-sistemas-graficos.herokuapp.com" target="_blank">VER TP2</a>
     </div>
     <div id="credits">
         <a href="https://github.com/FScaccheri" target="_blank">Franco Scaccheri</a>
